@@ -1,4 +1,5 @@
 ##### 封装以下socket接口
+```javascript
 inline int socket_init(void);
 inline int socket_cleanup(void);
 inline int socket_geterror(void);
@@ -86,3 +87,4 @@ inline int socket_multicast_join(IN socket_t sock, IN const char* group, IN cons
 inline int socket_multicast_leave(IN socket_t sock, IN const char* group, IN const char* source, IN const char* local);
 inline int socket_multicast_join_source(IN socket_t sock, IN const char* group, IN const char* source, IN const char* local);
 inline int socket_multicast_leave_source(IN socket_t sock, IN const char* group, IN const char* source, IN const char* local);
+```
